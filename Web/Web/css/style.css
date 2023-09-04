@@ -1,0 +1,172 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+body{
+    font-family: 'Poppins', sans-serif;
+    overflow-x: hidden;     
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 700;
+}
+p{
+    color: #727272;
+    /* font-weight: 50; */
+}
+h1 {
+    font-size: 36px;
+}
+h2 {
+    font-size: 28px;
+}
+h3 {
+    font-size: 20px;
+}
+.subHead {
+    font-size: 20px;
+    font-weight: 600;
+    color: #616161;
+}
+.bannerTitle {
+    font-size: 16px;
+    font-size: 600;
+    text-transform: uppercase;
+    letter-spacing: .25rem;
+}
+.myicon {
+    display: flex;
+    gap: 16px;
+    align-items: center;
+    margin-left: 16px;
+    color: #616161;
+}
+.carousel-item img {width: 100%;}
+.carousel-caption {height: 100%; display: flex !important; align-items: center;}
+.bannerText {width: 100%;}
+
+.container-carousel{
+    border-radius: 16px;
+}
+
+.clientLogo {
+    margin: 24px auto 40px auto;
+}
+.brandLogo {
+    text-align: center;
+}
+.brandLogo img {
+    height: 40px;
+}
+
+.brRight {
+    border-right: solid 4px #616161;
+    
+}
+
+.orig{
+    padding: 20px;
+}
+.line{
+    border: 2px solid rgb(171, 171, 171)
+    ;
+}
+.card{
+    border-radius: 16px;
+    padding: 8px; 
+    overflow: hidden;
+    border: none;  
+}
+.container1{
+ 
+    height: 1.5rem;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    padding: 60px;
+}
+
+.subcribe{
+    text-align:center;
+    font-weight: 600;
+    margin-top: 20px;
+    padding: 20px;
+}
+
+.get{
+    text-align: center;
+    padding: 20px;
+    
+}
+.policy{
+    text-align: center;
+    padding: 40px;
+    
+}
+.footer{
+    background-color: #727272;
+    width: 100%;
+    height: 100%;
+}
+
+.nost{
+    color: #616161;
+   
+}
+.input{
+    
+    display: flex;
+    justify-content: center;
+    padding: .2rem 1rem;
+}
+.input input{
+    border: 0;
+    outline: 0;
+    background-color: #F3F3F3;
+    border-radius: 8px;
+    padding: 8px;
+}
+.input button{
+    border: 0;
+    background-color: black;
+    color: white;
+    padding: .2rem .5rem;
+    border-radius: 8px;
+}
+.footers{
+    text-align: center;
+}
+.nostras{
+    background-color: #F3F3F3;
+}
+
+footer {
+    text-align: center;
+    background: black;
+}
+
+.footNav {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    color: white;
+}
+@media (min-width: 768px) and (max-width: 1024px){
+
+    .p_container{
+        box-sizing: border-box;
+        
+    }
+    .frame116{
+        width: 45vw;
+        
+        height: 45vh;
+        aspect-ratio: 1/2;
+        position: relative;
+        left: -2rem;
+        top: 7vh;   
+    }
+}
